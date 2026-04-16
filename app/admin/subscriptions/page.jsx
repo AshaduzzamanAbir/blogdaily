@@ -12,7 +12,7 @@ const page = () => {
   const fetchEmail = async () => {
     const response = await axios.get("/api/email");
     setEmails(response.data.emails);
-    console.log(response.data.emails);
+    // console.log(response.data.emails);
   };
 
   const deleteEmail = async (mongoId) => {
