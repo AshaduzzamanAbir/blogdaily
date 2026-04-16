@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.blog-content p {
+  padding-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.blog-content h2 {
+  padding: 16px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+.blog-content h3 {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.blog-content h4 {
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.blog-content b {
+  padding: 14px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
