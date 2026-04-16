@@ -32,7 +32,7 @@ const Header = () => {
           loading="lazy"
           className="w-[120] sm:w-auto"
         />
-        <Link href="http://localhost:3000/admin">
+        <Link href="https://blogdaily-pearl.vercel.app/admin" target="_blank">
           <button className="flex items-center gap-2 px-3 py-1 text-nowrap sm:py-3 lg:py-3 border border-black border-solid transition-all hover:shadow-[-7px_5px_0px_#000000] cursor-pointer">
             get start{" "}
             <Image src={assets.arrow} alt="arrow" width={10} loading="lazy" />
